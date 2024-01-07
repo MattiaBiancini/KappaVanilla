@@ -2,7 +2,6 @@ package me.garnet14.crafting.recipes;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
-import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.RecipeChoice.ExactChoice;
 import org.bukkit.inventory.ShapedRecipe;
@@ -11,7 +10,7 @@ import me.garnet14.KappaVanilla;
 import me.garnet14.items.FlintPickaxe;
 import me.garnet14.items.FlintPickaxeHead;
 
-public class FlintPickaxeRecipe implements Listener {
+public class FlintPickaxeRecipe {
 	
 	private ShapedRecipe headRecipe;
 	private ShapedRecipe toolRecipe;
